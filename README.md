@@ -86,7 +86,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-5. Configure environment variables
+5. Configure environment variables in a `.env` file in root directory.
     - **`OPENAI_API_KEY`**:
         - **Description**: The API key for accessing OpenAI services. This key is used to authenticate requests to the OpenAI API.
         - **Type**: `str`
